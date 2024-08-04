@@ -37,7 +37,6 @@ export const QuizProvider = ({ children }) => {
       fetchQuestions();
       setCorrectAnswersCount(0);
       setWrongAnswersCount(0);
-      setTimeLeft(90);
     }, 5000);
   };
 
